@@ -22,5 +22,5 @@ def print_tabulate(df: pd.DataFrame):
 
 df = get_csv_from_url("https://raw.githubusercontent.com/JesusCab/Data-Mining-Python/main/Car_Prices_Poland_Kaggle.csv")
 print_tabulate(df)
-df.to_csv("csv/Car_Prices_Poland_Kaggle.csv", index=False)
+#df.to_csv("csv/Car_Prices_Poland_Kaggle.csv", index=False)
 df.head(200)
